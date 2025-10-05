@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Vector DB (Chroma, FAISS, etc.)
+chroma_db/
+faiss_index/
+
+# HuggingFace / Transformers cache
+.cache/
+huggingface/
+
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
